@@ -2,8 +2,19 @@ exports.config =
   # See http://brunch.io/#documentation for docs.
   files:
     javascripts:
-      joinTo: 'app.js'
+      joinTo:
+        'scripts/app.js': /^app/
+        'scripts/vendor.js': /^(?!app)/
+
     stylesheets:
-      joinTo: 'app.css'
+      defaultExtension: 'scss'
+      joinTo:
+        'styles/app.css'
+
     templates:
-      joinTo: 'app.js'
+      joinTo: 'scripts/app.js'
+
+  # Activate the brunch plugins
+  plugins:
+    sass:
+      debug: 'comments'

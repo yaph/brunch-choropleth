@@ -1,9 +1,12 @@
 {
   "name": "brunch-choropleth",
-  "description": "Description",
+  "description": "Brunch skeleton for choropleth maps with D3.js and CoffeeScript",
   "author": "Ramiro Gómez",
   "version": "0.0.1",
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yaph/brunch-choropleth"
+  },
   "scripts": {
     "start": "brunch watch --server",
     "test": "brunch test"
