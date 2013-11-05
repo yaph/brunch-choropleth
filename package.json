@@ -1,7 +1,7 @@
 {
-  "name": "your-app",
+  "name": "brunch-choropleth",
   "description": "Description",
-  "author": "Your Name",
+  "author": "Ramiro Gómez",
   "version": "0.0.1",
   "repository": "",
   "scripts": {
@@ -12,6 +12,10 @@
     "javascript-brunch": ">= 1.0 < 1.8",
     "css-brunch": ">= 1.0 < 1.8",
     "uglify-js-brunch": ">= 1.0 < 1.8",
-    "clean-css-brunch": ">= 1.0 < 1.8"
+    "clean-css-brunch": ">= 1.0 < 1.8",
+    "coffee-script-brunch": "~1.7.2",
+    "sass-brunch": "~1.7.0",
+    "d3": "~3.3.9",
+    "d3-geo-projection": "~0.2.7"
   }
 }
