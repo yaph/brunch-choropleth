@@ -18,7 +18,9 @@
     "d3": "~3.3.9",
     "modernizr": "~2.6.2",
     "queue-async": "~1.0.4",
-    "d3.geo.projection.v0.js": "http://d3js.org/d3.geo.projection.v0.js"
+    "d3.geo.projection.v0.js": "http://d3js.org/d3.geo.projection.v0.js",
+    "colorbrewer": "~1.0.0",
+    "topojson": "~1.4.4"
   },
   "overrides": {
     "modernizr": {

@@ -15,3 +15,7 @@ exports.config =
   plugins:
     sass:
       debug: 'comments'
+
+  # no wrapping. Files will be compiled as-is.
+  modules:
+      wrapper: false
