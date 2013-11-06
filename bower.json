@@ -1,0 +1,28 @@
+{
+  "name": "brunch-choropleth",
+  "version": "0.0.0",
+  "homepage": "https://github.com/yaph/brunch-choropleth",
+  "authors": [
+    "Ramiro Gómez <code@ramiro.org>"
+  ],
+  "description": "A Brunch skeleton for creating choropleth maps with D3.",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "~3.3.9",
+    "modernizr": "~2.6.2",
+    "queue-async": "~1.0.4",
+    "d3.geo.projection.v0.js": "http://d3js.org/d3.geo.projection.v0.js"
+  },
+  "overrides": {
+    "modernizr": {
+      "main": "modernizr.js"
+    }
+  }
+}

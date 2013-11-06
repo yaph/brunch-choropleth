@@ -11,9 +11,6 @@ exports.config =
       joinTo:
         'styles/app.css'
 
-    templates:
-      joinTo: 'scripts/app.js'
-
   # Activate the brunch plugins
   plugins:
     sass:
