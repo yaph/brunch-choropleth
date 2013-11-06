@@ -46,5 +46,5 @@ init = (error, geo) ->
 
 
 queue()
-    .defer(d3.json, '/geo/countries.topo.json')
+    .defer(d3.json, 'geo/countries.topo.json')
     .await(init)
