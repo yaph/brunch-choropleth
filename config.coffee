@@ -5,6 +5,11 @@ exports.config =
       joinTo:
         'scripts/app.js': /^app/
         'scripts/vendor.js': /^(?!app)/
+      order:
+        before: [
+          'app/scripts/map.coffee',
+          'app/scripts/main.coffee'
+        ]
 
     stylesheets:
       defaultExtension: 'scss'
