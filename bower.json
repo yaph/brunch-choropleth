@@ -1,6 +1,6 @@
 {
   "name": "brunch-choropleth",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/yaph/brunch-choropleth",
   "authors": [
     "Ramiro Gómez <code@ramiro.org>"
@@ -15,12 +15,12 @@
     "tests"
   ],
   "dependencies": {
-    "d3": "~3.3.9",
-    "modernizr": "~2.6.2",
-    "queue-async": "~1.0.4",
+    "d3": "~3.4.3",
+    "modernizr": "~2.7.1",
+    "queue-async": "~1.0.7",
     "d3.geo.projection.v0.js": "http://d3js.org/d3.geo.projection.v0.js",
     "colorbrewer": "~1.0.0",
-    "topojson": "~1.4.4"
+    "topojson": "~1.4.9"
   },
   "overrides": {
     "modernizr": {
