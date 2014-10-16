@@ -9,4 +9,3 @@ Based on the [dead simple](https://github.com/brunch/dead-simple) skeleton.
 
 * add license, url etc to package.json
 * register npm package?
-* move map code to map.coffee and specify order of scripts in config.coffee
